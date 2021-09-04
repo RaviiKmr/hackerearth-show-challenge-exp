@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "HackerEarth Challenge Sort",
+    "version": "1.0",
+   
+    "description": "HackerEarth Challenge Sort by experience required.",
+   
+    "content_scripts": [
+      {
+        "matches": ["*://*.hackerearth.com/challenges/"],
+        "js": ["hackerearth.js"]
+      }
+    ],
+   
+    "permissions": [
+      "*://*.hackerearth.com/challenges/hiring/*"
+    ]
+  }
